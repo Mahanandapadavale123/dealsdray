@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border: 1px solid black; /* Black border */
+  padding: 20px;
+  background-color: white;
+  width: 400px; /* Card width */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup {
+  display: flex; /* Flexbox for inline layout */
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.label {
+  margin-right: 10px;
+  width: 35%; /* Adjust label width to align properly */
+}
+
+.input {
+  width: 60%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.inlineGroup {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.breadcrump{
+  background: #3fff5f;
+  padding: 2px 17px;
+}
+.breadcrump span{
+  font-size: 10px;;
+}
